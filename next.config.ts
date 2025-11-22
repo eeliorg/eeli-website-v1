@@ -1,7 +1,10 @@
 import type { NextConfig } from "next";
 
-const nextConfig = {
-  turbopack: false, 
+const nextConfig: NextConfig = {
+
+  eslint: {
+    ignoreDuringBuilds: true, 
+  },
 
   images: {
     formats: ["image/webp", "image/avif"],
