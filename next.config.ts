@@ -20,6 +20,7 @@ const nextConfig: NextConfig = {
   experimental: {
     optimizeCss: true,
     
+    serverComponentsExternalPackages: ["@sanity/client", "@sanity/image-url"],
   },
   
  turbopack: {
