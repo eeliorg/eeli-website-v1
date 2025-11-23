@@ -11,7 +11,7 @@ const team = [
   {
     name: 'Faith Abraham',
     role: 'Women Style & Etiquette Director',
-    image: '/logos/trinity.png',
+    image: '/logos/Trinity.png',
   },
   {
     name: 'Tirelo Ntsima',
@@ -26,7 +26,7 @@ const team = [
   {
     name: 'Gcinile Dlamini',
     role: 'Children |Youth Director',
-    image: '/logos/tirelo.png',
+    image: '/logos/Tirelo.png',
   },
   {
     name: 'Trinity Ogboe',
@@ -37,7 +37,7 @@ const team = [
 
 export default function OurTeam() {
   return (
-    <section className="bg-gradient-to-b from-pink-50 via-white to-purple-50 py-20 relative overflow-hidden">
+    <section className="bg-linear-to-b from-pink-50 via-white to-purple-50 py-20 relative overflow-hidden">
       {/* floating background shapes */}
       <div className="absolute -top-10 left-0 w-40 h-40 bg-purple-300 opacity-20 blur-3xl rounded-full animate-pulse"></div>
       <div className="absolute bottom-0 right-10 w-56 h-56 bg-pink-300 opacity-20 blur-3xl rounded-full animate-pulse delay-700"></div>
@@ -89,7 +89,7 @@ export default function OurTeam() {
                   className="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-110 rounded-t-3xl"
                 />
                 {/* gradient overlay */}
-                <div className="absolute inset-0 bg-gradient-to-t from-purple-800/60 via-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                <div className="absolute inset-0 bg-linear-to-t from-purple-800/60 via-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
               </div>
 
               {/* name + role */}
