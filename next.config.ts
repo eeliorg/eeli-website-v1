@@ -20,8 +20,9 @@ const nextConfig: NextConfig = {
   experimental: {
     optimizeCss: true,
     
-    serverComponentsExternalPackages: ["@sanity/client", "@sanity/image-url"],
   },
+
+  serverExternalPackages: ["@sanity/client", "@sanity/image-url"],
   
  turbopack: {
         root: path.join(__dirname, './'), // Sets the root to the absolute path of the project directory
