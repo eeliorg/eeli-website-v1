@@ -114,7 +114,7 @@ export default function BlogPage() {
                     {post.title}
                   </h2>
 
-                  <p className="mt-2 text-gray-600 line-clamp-3">
+                  <p className="mt-2 text-black line-clamp-3">
                     {post.excerpt}
                   </p>
 

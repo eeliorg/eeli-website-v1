@@ -1,10 +1,7 @@
 import type { NextConfig } from "next";
+import path from 'path'; // <-- 1. Import the path module
 
 const nextConfig: NextConfig = {
-
-  eslint: {
-    ignoreDuringBuilds: true, 
-  },
 
   images: {
     formats: ["image/webp", "image/avif"],
@@ -22,7 +19,12 @@ const nextConfig: NextConfig = {
 
   experimental: {
     optimizeCss: true,
+    
   },
+  
+ turbopack: {
+        root: path.join(__dirname, './'), // Sets the root to the absolute path of the project directory
+    },
 
   compress: true,
   poweredByHeader: false,
