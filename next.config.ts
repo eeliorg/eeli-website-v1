@@ -1,5 +1,4 @@
 import type { NextConfig } from "next";
-import path from 'path'; // <-- 1. Import the path module
 
 const nextConfig: NextConfig = {
 
@@ -24,9 +23,7 @@ const nextConfig: NextConfig = {
 
   serverExternalPackages: ["@sanity/client", "@sanity/image-url"],
   
- turbopack: {
-        root: path.join(__dirname, './'), // Sets the root to the absolute path of the project directory
-    },
+ 
 
   compress: true,
   poweredByHeader: false,
