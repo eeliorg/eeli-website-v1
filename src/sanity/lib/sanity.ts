@@ -1,15 +1,18 @@
 // lib/sanity.ts
-import SanityClient from '@sanity/client';
+
+// --- CHANGE 1: Import the modern named export 'createClient' ---
+import { createClient } from '@sanity/client';
 import imageUrlBuilder from '@sanity/image-url';
 
 export const config = {
   projectId: process.env.NEXT_PUBLIC_SANITY_PROJECT_ID || '',
   dataset: process.env.NEXT_PUBLIC_SANITY_DATASET || 'production',
   apiVersion: process.env.NEXT_PUBLIC_SANITY_API_VERSION || '2024-01-01',
-  useCdn: true, // `true` = faster, cached responses for public content
+  useCdn: true,
 };
 
-export const client = SanityClient({
+// --- CHANGE 2: Call the createClient function ---
+export const client = createClient({
   projectId: config.projectId,
   dataset: config.dataset,
   apiVersion: config.apiVersion,
