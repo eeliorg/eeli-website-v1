@@ -148,38 +148,34 @@ export default function Header() {
               <div className="flex flex-col space-y-3">
                 <Link
                   href="/about-us"
-                  className="text-sm font-medium px-4 py-2 rounded-lg transition-colors"
-                  style={{ color: 'var(--foreground)' }}
+                  className="text-sm font-medium px-4 py-2 rounded-lg transition-colors text-purple-950 hover:bg-pink-200"
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
                   About Us
                 </Link>
                 <Link
                   href="/gallery"
-                  className="text-sm font-medium px-4 py-2 rounded-lg transition-colors"
-                  style={{ color: 'var(--foreground)' }}
+                  className="text-sm font-medium px-4 py-2 rounded-lg transition-colors text-purple-950 hover:bg-pink-200"
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
                   Gallery
                 </Link>
                 <Link
                   href="/announcements"
-                  className="text-sm font-medium px-4 py-2 rounded-lg transition-colors"
-                  style={{ color: 'var(--foreground)' }}
+                  className="text-sm font-medium px-4 py-2 rounded-lg transition-colors text-purple-950 hover:bg-pink-200"
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
                   Announcements
                 </Link>
                 <Link
                   href="/blog"
-                  className="text-sm font-medium px-4 py-2 rounded-lg transition-colors"
-                  style={{ color: 'var(--foreground)' }}
+                  className="text-sm font-medium px-4 py-2 rounded-lg transition-colors text-purple-950 hover:bg-pink-200"
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
                   Blog
                 </Link>
                 <div className="pt-2 w-full">
-                  <Button href="/donate" onClick={() => setIsMobileMenuOpen(false)} className='!w-full'>
+                  <Button href="/donate" onClick={() => setIsMobileMenuOpen(false)} className='!w-full text-purple-950 hover:bg-pink-200'>
                     Empower A Woman
                   </Button>
                 </div>

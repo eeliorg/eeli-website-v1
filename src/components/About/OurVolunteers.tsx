@@ -4,6 +4,11 @@ import { motion } from 'framer-motion';
 
 const volunteers = [
   {
+    name: 'Grace Uwaifo',
+    role: 'Volunteer/Business Director',
+    image: '/logos/grace.png',
+  },
+  {
     name: 'Uche Vivian',
     role: 'Volunteer',
     image: '/logos/uche.png',
@@ -13,11 +18,7 @@ const volunteers = [
     role: 'Volunteer',
     image: '/logos/sandra.png',
   },
-  {
-    name: 'Grace Uwaifo',
-    role: 'Volunteer/Business Director',
-    image: '/logos/grace.png',
-  },
+  
 ];
 
 export default function OurVolunteers() {

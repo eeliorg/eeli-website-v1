@@ -15,7 +15,7 @@ const team = [
   },
   {
     name: 'Tirelo Ntsima',
-    role: 'Business/Career Director',
+    role: 'Career Director',
     image: '/logos/regina.png',
   },
   {
