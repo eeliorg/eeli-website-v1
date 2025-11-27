@@ -40,7 +40,7 @@ export default function HeroSection(): JSX.Element {
                 <h3 className="mt-1 text-lg sm:text-xl md:text-2xl font-semibold text-white drop-shadow-md">
                   Transforming Generation.
                 </h3>
-                <p className="mt-2 text-xs sm:text-sm md:text-sm text-white/90 max-w-xs shadow-md drop-shadow-lg">
+                <p className="mt-2 text-xs sm:text-sm md:text-sm text-white/90 max-w-xs shadow-lg drop-shadow-lg">
                   EELI is dedicated to fostering joy, hope, and lasting change
                   through mentorship, community support, and love.
                 </p>
