@@ -23,7 +23,7 @@ const volunteers = [
 
 export default function OurVolunteers() {
   return (
-    <section className="bg-gradient-to-b from-white via-pink-50 to-purple-50 py-20 relative overflow-hidden">
+    <section className="bg-linear-to-b from-white via-pink-50 to-purple-50 py-20 relative overflow-hidden">
       {/* floating shapes */}
       <div className="absolute -top-10 left-0 w-40 h-40 bg-purple-300 opacity-20 blur-3xl rounded-full animate-pulse"></div>
       <div className="absolute bottom-0 right-10 w-56 h-56 bg-pink-300 opacity-20 blur-3xl rounded-full animate-pulse delay-700"></div>
@@ -67,14 +67,14 @@ export default function OurVolunteers() {
               className="relative bg-white shadow-lg rounded-3xl overflow-hidden group hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 w-full max-w-sm"
             >
               {/* image */}
-              <div className="relative h-[320px] w-full overflow-hidden">
+              <div className="relative h-80 w-full overflow-hidden">
                 <img
                   src={person.image}
                   alt={person.name}
                   className="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-110 rounded-t-3xl"
                 />
                 {/* overlay */}
-                <div className="absolute inset-0 bg-gradient-to-t from-purple-800/60 via-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                <div className="absolute inset-0 bg-linear-to-t from-purple-800/60 via-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
               </div>
 
               {/* name + role */}

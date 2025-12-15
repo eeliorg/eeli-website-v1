@@ -25,7 +25,7 @@ export default function HeroSection(): JSX.Element {
             className="flex justify-center md:justify-start md:col-span-2"
           >
             <div
-              className="relative rounded-2xl overflow-hidden shadow-xl w-full h-80 sm:h-96 md:h-[32rem] bg-cover bg-center group"
+              className="relative rounded-2xl overflow-hidden shadow-xl w-full h-80 sm:h-96 md:h-128 bg-cover bg-center group"
               style={{ backgroundImage: "url('/logos/abouthero.jpg')" }}
             >
 
@@ -71,7 +71,7 @@ export default function HeroSection(): JSX.Element {
                         alt={`${item.text} icon`}
                         width={20}
                         height={20}
-                        className="flex-shrink-0"
+                        className="shrink-0"
                       />
                       <span className="text-xs font-medium text-slate-800">
                         {item.text}
@@ -81,7 +81,7 @@ export default function HeroSection(): JSX.Element {
                 })()}
               </div>
 
-              <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-transparent mix-blend-multiply" />
+              <div className="pointer-events-none absolute inset-0 bg-linear-to-t from-black/20 via-transparent to-transparent mix-blend-multiply" />
             </div>
           </motion.div>
 
@@ -91,7 +91,7 @@ export default function HeroSection(): JSX.Element {
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8, ease: 'easeOut', delay: 0.2 }}
             viewport={{ once: true }}
-            className="flex flex-col justify-between text-center md:text-left h-80 sm:h-96 md:h-[32rem] md:col-span-1"
+            className="flex flex-col justify-between text-center md:text-left h-80 sm:h-96 md:h-128 md:col-span-1"
           >
             {/* Floating Pill */}
             <div className="flex justify-center md:justify-start">
@@ -137,7 +137,7 @@ export default function HeroSection(): JSX.Element {
 
             {/* Bottom Image */}
             <div className="flex justify-center md:justify-start mt-4 md:mt-0">
-              <div className="group relative rounded-lg overflow-hidden shadow-md w-72 sm:w-96 md:w-[28rem] h-48 sm:h-56 md:h-[15rem]">
+              <div className="group relative rounded-lg overflow-hidden shadow-md w-72 sm:w-96 md:w-md h-48 sm:h-56 md:h-60">
                 <Image
                   src="/logos/hero2.png"
                   alt="Child smiling"

@@ -175,7 +175,7 @@ export default function Header() {
                   Blog
                 </Link>
                 <div className="pt-2 w-full">
-                  <Button href="/donate" onClick={() => setIsMobileMenuOpen(false)} className='!w-full text-purple-950 hover:bg-pink-200'>
+                  <Button href="/donate" onClick={() => setIsMobileMenuOpen(false)} className='w-full text-purple-950 hover:bg-pink-200'>
                     Empower A Woman
                   </Button>
                 </div>

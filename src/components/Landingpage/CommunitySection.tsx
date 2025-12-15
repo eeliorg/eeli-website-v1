@@ -206,7 +206,7 @@ export default function CommunitySection() {
               Be part of a strong, supportive network where women and children thrive.
             </p>
 
-            <div className="flex justify-center mb-4 flex-grow items-center">
+            <div className="flex justify-center mb-4 grow items-center">
               <Image
                 src="/logos/community.png"
                 alt="community image"
