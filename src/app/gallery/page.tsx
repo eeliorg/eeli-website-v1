@@ -90,7 +90,7 @@ export default function GalleryPage() {
           className="text-gray-600 max-w-2xl mx-auto"
         >
           Explore the impact of our community programs through photos and videos.
-          We show you how you donations and support make a difference and impact lives.
+          We show you how your donations and support make a difference and impact lives.
         </motion.p>
       </div>
 
