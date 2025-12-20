@@ -50,7 +50,7 @@ export default function TestimonialsPage() {
         <section>
           <div className="grid md:grid-cols-3 gap-6">
             {stats.map((s) => (
-              <div key={s.label} className="rounded-2xl bg-gradient-to-r from-purple-50 to-pink-50 p-8 text-center">
+              <div key={s.label} className="rounded-2xl bg-linear-to-r from-purple-50 to-pink-50 p-8 text-center">
                 <div className="text-4xl font-bold text-purple-600">{s.value}</div>
                 <div className="mt-2 text-gray-700 font-semibold">{s.label}</div>
               </div>

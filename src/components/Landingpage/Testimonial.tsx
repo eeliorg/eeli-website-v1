@@ -95,7 +95,7 @@ export default function Testimonials() {
                 key={t._id}
                 className="
                   bg-white rounded-2xl shadow-md p-6
-                  flex-shrink-0
+                  shrink-0
                   w-[250px] sm:w-[260px] md:w-[280px] lg:w-[300px]
                   transition-transform duration-700
                 "
@@ -104,7 +104,7 @@ export default function Testimonials() {
                 }}
               >
                 <div className="flex items-center mb-4">
-                  <div className="w-12 h-12 rounded-full border-4 border-purple-700/50 p-0.5 flex-shrink-0">
+                  <div className="w-12 h-12 rounded-full border-4 border-purple-700/50 p-0.5 shrink-0">
                     <Image
                       src={t.image}
                       alt={t.name}
